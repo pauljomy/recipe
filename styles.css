@@ -54,7 +54,7 @@ img {
     max-width: 100%;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     article {
         margin: 0;
     }
