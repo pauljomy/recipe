@@ -42,7 +42,6 @@ ol {
 
 body {
   min-height: 100vh;
-  max-width: 46rem;
   background-color: var(--body-background);
   margin: 0 auto;
 }
@@ -234,6 +233,10 @@ table {
     /* max-width: 100%; */
     border-radius: 1.2em;
     /*margin-block-end: 2.5em;*/
+  }
+
+  body {
+    max-width: 48rem;
   }
 }
 
