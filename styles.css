@@ -199,7 +199,7 @@ table {
   border-bottom: none;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   article {
     margin: 0;
     padding: 0;
