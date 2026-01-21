@@ -226,6 +226,7 @@ table {
   article {
     margin: 8em 3em;
     padding: 2.5em;
+    border-radius: 1.5em;
   }
 
   img {
