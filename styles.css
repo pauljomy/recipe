@@ -198,7 +198,7 @@ table {
   border-bottom: none;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 20em) {
   article {
     margin: 0;
     padding: 0;
@@ -215,24 +215,17 @@ table {
     border-radius: 0;
     margin-bottom: 0;
   }
-
-  h1 {
-    font-size: 2.25em;
-  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   article {
     margin: 8em 3em;
-    padding: 2.5em;
+    padding: 2.5em 2.5em 0 2.5em;
     border-radius: 1.5em;
-    padding-bottom: 0;
   }
 
   img {
-    /* max-width: 100%; */
     border-radius: 1.2em;
-    /*margin-block-end: 2.5em;*/
   }
 
   body {
@@ -240,12 +233,11 @@ table {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 90em) {
   article {
     margin: 8em 0;
     border-radius: 1.5em;
-    padding: 2.5em;
-    padding-bottom: 0;
+    padding: 2.5em 2.5em 0 2.5em;
   }
 
   body {
